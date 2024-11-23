@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    z-index: 1;
+    margin-left: 48%;
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+}
+
+.button {
+    position: fixed;
+    cursor: pointer;
+    top: 60%;
+    left: 48%;
+    z-index: 1;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+#rockImg,
+#paperImg,
+#scissorsImg {
+    width: 100px;
+    height: 160px;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: fixed;
+    top: 40%;
+    left: 42%;
+}
+
+#rock,
+#paper,
+#scissors {
+    position: fixed;
+    cursor: pointer;
+    top: 41.3%;
+    left: 48%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+#rock {
+    margin-left: -4%;
+}
+
+#paper {
+    margin-left: 1%;
+}
+
+#scissors {
+    margin-left: 6%;
+}
+
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+    opacity: 0.8;
+
+}
+
+#rock:active,
+#paper:active,
+#scissors:active {
+    opacity: 0.5;
+}
+
+#result,
+#resultComputer {
+    position: fixed;
+    top: 59%;
+    left: 42%;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(38, 38, 41);
+}
+
+#resultComputer {
+    top: 55%;
+}
+
+#resultComputer span {
+    color: rgb(187, 2, 2);
+}
+
+#result span {
+    color: rgb(28, 60, 200);
+}
