@@ -19,8 +19,8 @@
 .button {
     position: fixed;
     cursor: pointer;
-    top: 60%;
-    left: 48%;
+    top: 65%;
+    left: 44%;
     z-index: 1;
 }
 
@@ -30,6 +30,21 @@
 
 .button:active {
     opacity: 0.5;
+}
+#reset {
+    width: 159px;
+    height: 50px;
+    background-color: rgb(136, 8, 8);
+    border-radius: 25px;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    position: fixed;
+    cursor: pointer;
+    top: 68.8%;
+    left: 52%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
 }
 
 #rockImg,
@@ -86,7 +101,7 @@ div {
 }
 
 #result,
-#resultComputer {
+#resultComputer,.text{
     position: fixed;
     top: 59%;
     left: 42%;
@@ -106,4 +121,10 @@ div {
 
 #result span {
     color: rgb(28, 60, 200);
+}
+.text {
+    top: 63%;
+    left: 45.5%;;
+    font-weight: bold;
+    color: rgb(248, 189, 11);
 }
